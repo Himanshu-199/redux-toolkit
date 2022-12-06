@@ -1,0 +1,77 @@
+.img_tag {
+  width: 600px;
+  height: 220px;
+}
+.container_employee {
+  width: 70% !important;
+  margin-left: 100px;
+  display: flex;
+}
+.container_employee_upper {
+  width: 90%;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.container_employee_lower {
+  width: 90%;
+  margin-left: 40px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px grey;
+  border-radius: 16px;
+}
+.container_employee_lower_outer {
+  padding: 5px 10px;
+}
+.container_employee_child {
+  width: 50%;
+}
+.selected_container_parent {
+  width: 50%;
+}
+.selected_container {
+  width: 100%;
+  margin-top: 108px;
+  margin-left: 50px;
+}
+.intend {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  box-shadow: 0 0 6px grey;
+  border-radius: 16px;
+}
+.table_container {
+  width: 80%;
+  height: 400px;
+}
+.table {
+  width: 80%;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.table_data {
+  width: 20%;
+  text-align: center;
+  border: 1px solid rgb(190, 113, 113);
+  border-left: 0px;
+  border-top: 0px;
+  box-shadow: 0 0 5px rgb(228, 202, 202);
+}
+.table_container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn_add {
+  height: 45px;
+  width: 80px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 18px;
+  box-shadow: 0 0 5px grey;
+  margin-top: 20px;
+}
